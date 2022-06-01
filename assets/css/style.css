@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.cub-place{
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+    align-content: space-around;
+    display: flex;
+    width: 410px;
+    height: 410px;
+    justify-content: space-around;
+    padding: 10px;
+}
+a{
+    width: 100px;
+    height: 100px;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.place-for-cubs{
+    /* width: 100;
+    height: 130px;
+    padding: 10px; */
+    flex-wrap: wrap;
+    align-content: space-around;
+    display: flex;
+    width: 410px;
+    height: 410px;
+    justify-content: space-around;
+    padding: 10px;
+}
+p{
+    width: 400px;
+    height: 110px;
+}
+.redem{
+    border: 1px solid red;
+}
+.blueem{
+    border: 1px solid blue;
+}
+.greenem{
+    border: 1px solid green;
+}
